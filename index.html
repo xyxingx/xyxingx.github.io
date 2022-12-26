@@ -115,7 +115,7 @@
           </tr>-->
 					
           <tr onmouseout="PCCC_stop()" onmouseover="PCCC_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
                 <!-- <div class="two" id='PCCC_image'><video  width=100% height=100% muted autoplay loop>
                 <source src="images/PCCC_supervision.mp4" type="video/mp4">
@@ -134,7 +134,7 @@
                 nerfsuper_stop()
               </script>
             </td> 
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:75%;vertical-align:top">
 							<a href="https://github.com/xyxingx/Point-Cloud-Color-Constancy">
                 <papertitle>Point Cloud Color Constancy</papertitle>
               </a>
@@ -155,6 +155,46 @@
             </td>
           </tr>
 
+
+          <tr onmouseout="DENet_stop()" onmouseover="DENet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='PCCC_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/PCCC_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/DENet_image.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function DENet_start() {
+                  document.getElementById('DENet_image').style.opacity = "1";
+                }
+
+                function DENet_stop() {
+                  document.getElementById('DENet_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td> 
+            <td style="padding:20px;width:75%;vertical-align:top">
+							<a href="https://www.computer.org/csdl/proceedings-article/icpr/2022/09956699/1IHquTH0Uo0">
+              <papertitle>Dual-Illumination Weighting and Estimation </papertitle>
+              </a>
+              <br>
+              <strong>Xiaoyan Xing</strong>,
+              Sibo Feng</a>,
+              <a href="https://scholar.google.co.uk/citations?user=EMnEhLIAAAAJ&hl=en">Yanlin Qian</a>, 
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=7_3gwygAAAAJ&view_op=list_works">Yuhan Dong</a>
+              <br>
+              <em>ICPR</em>, 2022  
+              <br>
+							<a href="https://www.computer.org/csdl/proceedings-article/icpr/2022/09956699/1IHquTH0Uo0">paper</a> 
+							<!-- <a href="https://github.com/xyxingx/Point-Cloud-Color-Constancy">code</a> / -->
+							<!-- <a href="https://github.com/xyxingx/Point-Cloud-Color-Constancy">data</a> -->
+              <p></p>
+              <p>Efficient RAW dual-Illumination image generation using a random gaussian map and guided filter helps the network to estimate illumination map of unseen dual-illuminant images.</p>
+            </td>
+          </tr>
 			    <!-- <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()"  bgcolor="#ffffd0">
 			      <td style="padding:20px;width:25%;vertical-align:middle">
 			        <div class="one">
