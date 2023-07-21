@@ -52,7 +52,6 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>News</heading>
                 <div id="news">
-		  <p>[April 2023] I will participate <a href="https://iplab.dmi.unict.it/icvss2023/Home">ICVSS</a> this summer!</p>
                   <p>[March 2023] I became a reviewer of <a href="https://www.springer.com/journal/11263">IJCV</a>!</p>
                   <p>[February 2023] I was nominated as an <a href="https://ellis.eu/phd-postdoc">ELLIS</a> PhD!</p>
                   <p>[September 2022] I started my PhD adventure &#129310;!</p>
@@ -77,55 +76,48 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr onmouseout="PointIID_stop()" onmouseover="PointIID_start()">
+            <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/MalleConv_after.jpg' width="160"></div>
-                <img src='images/MalleConv_before.jpg' width="160">
+                
+                <img src='images/PointIID_image.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
+                function PointIID_start() {
+                  document.getElementById('PointIID_image').style.opacity = "1";
                 }
 
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
+                function PointIID_stop() {
+                  document.getElementById('PointIID_image').style.opacity = "0";
                 }
-                malle_stop()
+                nerfsuper_stop()
               </script>
-            </td> -->
-            <!-- <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://yifanjiang.net/MalleConv.html">
-                <papertitle>Fast and High-quality Image Denoising via Malleable Convolutions</papertitle>
+            </td> 
+            <td style="padding:20px;width:75%;vertical-align:top">
+							<a href="https://arxiv.org/abs/2307.10924">
+                <papertitle>Intrinsic Appearance Decomposition Using Point Cloud Representation</papertitle>
               </a>
               <br>
-              <a href="https://yifanjiang.net/">Yifan Jiang</a>,
-              <a href="https://bartwronski.com/">Bartlomiej Wronski</a>, 
-							<a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://spark.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang Wang</a>,
-              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>
+              <strong>Xiaoyan Xing</strong>,
+              Konrad Groh</a>, 
+              <a href="https://karaoglusezer.github.io/"></a>Sezer Karaoglu</a>,
+              <a href="https://staff.fnwi.uva.nl/th.gevers/">Theo Gevers</a>
               <br>
-              <em>ECCV</em>, 2022
+              <em>Arxiv</em>, 2023  
               <br>
-              <a href="https://yifanjiang.net/MalleConv.html">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2201.00392">arXiv</a>
+							<a href="https://arxiv.org/abs/2307.10924">paper</a> / 
+							<a href="https://github.com/xyxingx/PoInt-Net">code</a>
               <p></p>
-              <p>
-              We denoise images efficiently by predicting spatially-varying kernels at low resolution and using a fast fused op to jointly upsample and apply these kernels at full resolution.
-              </p>
+              <p>Point cloud based intrinsic appearance decompostion ahieves good accuracy and can be generlized to unseen scenes/shape. </p>
             </td>
-          </tr>-->
-					
+          </tr>
+
+
+
           <tr onmouseout="PCCC_stop()" onmouseover="PCCC_start()">
             <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
-                <!-- <div class="two" id='PCCC_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/PCCC_supervision.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div> -->
+                
                 <img src='images/PCCC_image.jpg' width="160">
               </div>
               <script type="text/javascript">
@@ -164,10 +156,7 @@
           <tr onmouseout="DENet_stop()" onmouseover="DENet_start()">
             <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
-                <!-- <div class="two" id='PCCC_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/PCCC_supervision.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div> -->
+                
                 <img src='images/DENet_image.jpg' width="160">
               </div>
               <script type="text/javascript">
@@ -194,52 +183,12 @@
               <em>ICPR</em>, 2022  
               <br>
 							<a href="https://www.computer.org/csdl/proceedings-article/icpr/2022/09956699/1IHquTH0Uo0">paper</a> 
-							<!-- <a href="https://github.com/xyxingx/Point-Cloud-Color-Constancy">code</a> / -->
-							<!-- <a href="https://github.com/xyxingx/Point-Cloud-Color-Constancy">data</a> -->
+							
               <p></p>
               <p>Efficient RAW dual-Illumination image generation using a random gaussian map and guided filter helps the network to estimate illumination map of unseen dual-illuminant images.</p>
             </td>
           </tr>
-			    <!-- <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()"  bgcolor="#ffffd0">
-			      <td style="padding:20px;width:25%;vertical-align:middle">
-			        <div class="one">
-			          <img src='images/PCCC_image.jpg' width="160">
-			        </div>
-			        <script type="text/javascript">
-			          function PCCC_start() {
-			            document.getElementById('PCCC_image').style.opacity = "1";
-			          }
-
-			          function PCCC_stop() {
-			            document.getElementById('PCCC_image').style.opacity = "0";
-			          }
-			          refnerf_stop()
-			        </script>
-			      </td> -->
-			            <!-- <td style="padding:20px;width:75%;vertical-align:middle">
-			          <a href="https://dorverbin.github.io/refnerf/index.html">
-			            <papertitle>Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields</papertitle>
-			          </a>
-			          <br>
-			          <a href="https://scholar.harvard.edu/dorverbin/home">Dor Verbin</a>,
-			          <a href="https://phogzone.com/">Peter Hedman</a>,
-			          <a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
-			          <a href="Todd Zickler">Todd Zickler</a>,
-			          <strong>Jonathan T. Barron</strong>,
-			          <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>
-			          <br>
-			    <em>CVPR</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation, Best Student Paper Honorable Mention)</strong></font>
-			          <br>
-			          <a href="https://dorverbin.github.io/refnerf/index.html">project page</a>
-			    /
-			          <a href="https://arxiv.org/abs/2112.03907">arXiv</a>
-			    /
-			          <a href="https://youtu.be/qrdRH9irAlk">video</a>
-			          <p></p>
-			          <p>Explicitly modeling reflections in NeRF produces realistic shiny surfaces and accurate surface normals, and lets you edit materials.</p>
-			        </td>
-			      </tr> -->
-
+			    
 
         </tbody></table>
 
@@ -253,18 +202,7 @@
         </tbody></table>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 					
-          <!-- <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-            <td width="75%" valign="center">
-              <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-              <br>
-              <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Longuet-Higgins Award Committee Member, CVPR 2021</a>
-              <br>
-              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-              <br>
-              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-            </td>
-          </tr> -->
+          
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/Tsinghua.jpg" alt="tsinghua" width="100">
@@ -272,10 +210,6 @@
             <td width="75%" valign="center">
               Teaching asistant, Big Data Experiment and Application Spring 2021</a><br>
               Teaching asistant, Public Health Statistics Spring 2020</a>
-              <!-- <br>
-              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-              <br>
-              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a> -->
             </td>
           </tr>
 					
