@@ -84,6 +84,48 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="Lumi_stop()" onmouseover="Lumi_start()">
+            <td style="padding:20px;width:25%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='Lumi_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/relit_new.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+              </div>
+              <script type="text/javascript">
+                function Lumi_start() {
+                  document.getElementById('relit_new').style.opacity = "1";
+                }
+
+                function Lumi_stop() {
+                  document.getElementById('relit_new').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td> 
+            <td style="padding:20px;width:75%;vertical-align:top">
+							<a href="https://luminet-relight.github.io/">
+                <papertitle>LumiNet: Latent Intrinsics Meets Diffusion Models for Indoor Scene Relighting</papertitle>
+              </a>
+              <br>
+              <strong>Xiaoyan Xing</strong>,
+              Konrad Groh,
+              <a href="https://karaoglusezer.github.io/">Sezer Karaoglu</a>,
+              <a href="https://staff.fnwi.uva.nl/th.gevers/">Theo Gevers</a>,
+              <a href="https://anandbhattad.github.io/">Anand Bhattad</a>
+
+              <br>
+              <em> Arxiv 2024</em>
+              <br>
+							<a href="https://arxiv.org/abs/2412.00177">arxiv</a> /
+              <a href="https://luminet-relight.github.io/">website</a>
+	      <p></p>
+              <p>Real-world indoor scene image-based relighting without inverse rendering.</p>
+            </td>
+          </tr>
+          
+
+
           <tr onmouseout="CCD_stop()" onmouseover="CCD_start()">
             <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
