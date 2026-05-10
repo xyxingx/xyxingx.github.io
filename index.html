@@ -114,6 +114,48 @@
             </td>
           </tr>
 
+		<tr onmouseout="ALI_stop()" onmouseover="ALI_start()">
+            <td style="padding:20px;width:25%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='ALI_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ALI.jpg" width="160">
+                Your browser does not support the video tag.
+                </video></div>
+              </div>
+              <script type="text/javascript">
+                function Lumi_start() {
+                  document.getElementById('ALI_image').style.opacity = "1";
+                }
+
+                function Lumi_stop() {
+                  document.getElementById('ALI_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td> 
+            <td style="padding:20px;width:75%;vertical-align:top">
+							<a href="https://luminet-relight.github.io/">
+                <papertitle>Generative Relighting as a Probe: Augmented Latent Intrinsics for Physically-Grounded Representations</papertitle>
+              </a>
+              <br>
+              <strong>Xiaoyan Xing</strong>,
+              <a href="https://xiao7199.github.io/">Xiao Zhang</a>,
+              <a href="https://karaoglusezer.github.io/">Sezer Karaoglu</a>,
+              <a href="https://staff.fnwi.uva.nl/th.gevers/">Theo Gevers</a>,
+              <a href="https://anandbhattad.github.io/">Anand Bhattad</a>
+
+              <br>
+              <em>ICML 2026</em>
+              <br>
+			  <a href="https://arxiv.org/abs/2602.01391">arXiv</a> /
+              <a href="https://augmented-latent-intrinsics.github.io/">website</a>
+		    <!-- <a href="https://github.com/xyxingx/LumiNet">code</a> /
+		    <a href="https://huggingface.co/spaces/xyxingx/LumiNet">demo</a>  -->
+	      <p></p>
+              <p>Better semantics != better relighting. We analyze which representations help generative relighting.</p>
+            </td>
+          </tr>
+
           <tr onmouseout="Lumi_stop()" onmouseover="Lumi_start()">
             <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
